@@ -6,10 +6,9 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
+            <h2>Фото</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Затишна атмосфера чекає на Вас та ваших малят!
             </p>
           </div>
           <div className="row">
@@ -18,20 +17,12 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/01-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/01-small.jpg"
+                      <img loading="lazy"
+                          src={"http://www.akvarelka.org/img/portfolio/2m.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -39,20 +30,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/02-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Adipiscing Elit</h4>
                       </div>
-                      <img
-                        src="img/portfolio/02-small.jpg"
+                      <img loading="lazy"
+                          src={"http://www.akvarelka.org/img/portfolio/3m.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -60,20 +47,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/03-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Lorem Ipsum</h4>
                       </div>
-                      <img
-                        src="img/portfolio/03-small.jpg"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/4m.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -81,20 +64,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/04-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Lorem Ipsum</h4>
                       </div>
-                      <img
-                        src="img/portfolio/04-small.jpg"
+                      <img loading="lazy"
+                          src={"http://www.akvarelka.org/img/portfolio/5m.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -102,20 +81,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/05-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Adipiscing Elit</h4>
                       </div>
-                      <img
-                        src="img/portfolio/05-small.jpg"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/6.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -123,20 +98,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/06-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Dolor Sit</h4>
                       </div>
-                      <img
-                        src="img/portfolio/06-small.jpg"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/7.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -144,20 +115,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/07-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Dolor Sit</h4>
                       </div>
-                      <img
-                        src="img/portfolio/07-small.jpg"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/8.jpg"}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -165,20 +132,16 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/08-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
+
                       <div className="hover-text">
                         <h4>Lorem Ipsum</h4>
                       </div>
-                      <img
-                        src="img/portfolio/08-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/9.jpg"}
+                        className="img-responsive "
+                        alt="Empty"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>
@@ -186,20 +149,15 @@ export class Gallery extends Component {
                 <div className="portfolio-item">
                   <div className="hover-bg">
                     {" "}
-                    <a
-                      href="img/portfolio/09-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
                       <div className="hover-text">
                         <h4>Adipiscing Elit</h4>
                       </div>
-                      <img
-                        src="img/portfolio/09-small.jpg"
+                      <img loading="lazy"
+                        src={"http://www.akvarelka.org/img/portfolio/10.jpg"}
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="none"
                       />{" "}
-                    </a>{" "}
+
                   </div>
                 </div>
               </div>

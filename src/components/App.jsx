@@ -5,7 +5,6 @@ import Features from './features';
 import About from './about';
 import Services from './services';
 import Gallery from './gallery';
-import Testimonials from './testimonials';
 import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
@@ -13,6 +12,7 @@ import $ from 'jquery';
 export class App extends Component {
   state = {
     resumeData : {},
+
   }
   getResumeData(){
     $.ajax({
@@ -40,9 +40,8 @@ export class App extends Component {
         <Header data={this.state.resumeData.Header}/>
         <Features data={this.state.resumeData.Features}/>
         <About  data={this.state.resumeData.About}/>
-        <Services  data={this.state.resumeData.Services}/>
+        <Services  data={this.state.resumeData.Services} left={this.state.left} right={this.state.right}/>
         <Gallery />
-        <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>
         <Contact  data={this.state.resumeData.Contact}/>
       </div>

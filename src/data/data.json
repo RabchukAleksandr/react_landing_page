@@ -1,56 +1,61 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Творча студія \"Акварелька\"",
+        "paragraph": "Запрошує дітей та їх небайдужих батьків в середовище, наповнене любовю та прагненням до найкращого."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Дитячий садок та творча студія \"Акварелька\" - це унікальний простір де ваша дитина має можливість розвиватись у своєму унікальному індивідуальному напрямку відчуваючи себе як удома. Ми спеціалізуємося на всебічному розвитку дитини як особистості: комунікативні навички, емоційний інтелект, емпатія, логіка та творче мислення. Наша мета не нав'язати дитині шаблони, а дати можливість самій знайти відповідь на запитання які виникають у процесі пізнання світу, експерементів тощо. Допомогаємо дитині розвинутись через власний досвід та індивідуальне світосприйняття.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Безпека: охорона та цілодобовий відеонагляд, як всередині, так і ззовні.",
+            "Досвідченні та люблячі викладачі та вихователі.",
+            "Тільки якісна, свіжа та смачна їжа.",
+            "Розвиваючі заняття на будь-який смак і колір!"
         ]
-    },
-    "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
 
+    },
+    "Services": [
+        {
+            "icon": "img/service_icons/kindergarten.png",
+            "name": "Дитячий садок",
+            "text": "Повного та неповного дня. Піклюємося та пізнаємо світ разом з вашою дитиною поки ви заробляєте гроші."
+        },
+        {
+            "icon": "img/service_icons/paint.png",
+            "name": "Малювання",
+            "text": "Фарбами, гуашшю та маслами.Місце, де ваша дитина віддається творчому процесу."
+        },
+        {
+            "icon": "img/service_icons/chess.png",
+            "name": "Шахи",
+            "text": "Коли думаешь наперед і розвиваєш логіку та критичність мислення."
+        },
+        {
+            "icon": "img/service_icons/pottery.png",
+            "name": "Майстер-класи",
+            "text": "Від ліпленя глиною до випікання смаколиків"
+        },
+        {
+            "icon": "img/service_icons/dictionary.png",
+            "name": "Іноземні мови",
+            "text": "Навчимо вашу дитину говорити, розуміти та писати різними мовами світу."
+        },
+        {
+            "icon": "img/service_icons/dancer.png",
+            "name": "Хореографія",
+            "text": "Для тих, в кого єнергія б'є через край."
+        },
+        {
+            "icon": "img/service_icons/gymnastics.png",
+            "name": "Повітряна гімнастика",
+            "text": "Майже літаємо."
+        },
+        {
+            "icon": "img/service_icons/cake.png",
+            "name": "Дитячі свята",
+            "text": "Організуємо все що забажаєте."
+        }
 
     ],
     "Testimonials": [{
@@ -85,52 +90,72 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "img": "img/testimonials/2.jpg",
+            "name": "Наталія",
+            "job": "Комерційний директор"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "img": "img/testimonials/1.jpg",
+            "name": "Тетяна",
+            "job": "Креативний директор"
         }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
+            "img": "img/testimonials/3.jpg",
+            "name": "Ольга",
+            "job": "Викладач англійської та польської мов"
         },
         {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/testimonials/4.jpg",
+            "name": "Олена",
+            "job": "Вихователь, спеціаліст по дошкільному розвитку"
+        },
+        {
+            "img": "img/testimonials/5.jpg",
+            "name": "Оксана",
+            "job": "Кухар, помічник вихователя"
+        },
+        {
+            "img": "img/testimonials/6.jpg",
+            "name": "Світлана",
+            "job": "Логопед"
+        },
+        {
+            "img": "img/testimonials/7.jpg",
+            "name": "Інга",
+            "job": "Адміністратор"
+        },
+        {
+            "img": "img/testimonials/8m.jpg",
+            "name": "Ольга",
+            "job": "Вихователь, спеціаліст по ранньому розвитку"
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": "проспект Героїв Небесної Сотні, 16/5, квартира 9, Софіївська Борщагівка, Уютний Квартал, Київська обл., 08131",
+        "phone1": "+380957958860",
+        "phone2": "+380933142380",
+        "email": "akvarelka.uk@gmail.com",
+        "facebook": "https://www.facebook.com/profile.php?id=100007708687956",
+        "instagram": "https://www.instagram.com/akvarelka.uk"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/features_icons/outdoor.png",
+            "title": "Власний єко-майданчик",
+            "text": "Унікальна можливість подихати свіжим повітрям на отримати заряд сонця на день уперед."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/features_icons/food.png",
+            "title": "Тільки свіжі та корисні продукти",
+            "text": "Підберемо меню для вашої дитини."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/features_icons/baby.png",
+            "title": "Індивідуальний підхід",
+            "text": "Дитина - це індивід. І наша мета виховати покоління щасливих та розумних"
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "img/features_icons/security.png",
+            "title": "Безпека",
+            "text": "Цілодобовий відеонагляд. Ваша дитина в надійних та дбайливих руках"
         }
     ]
 }
